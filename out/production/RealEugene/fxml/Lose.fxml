@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoseController">
+    <children>
+        <Button fx:id="exit" layoutX="197.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#clickExit" text="Exit Game" />
+        <Button fx:id="restart" layoutX="483.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#clickRestart" text="Restart Game" />
+        <Label fx:id="lost" layoutX="376.0" layoutY="128.0" text="You lost!" />
+      <Label fx:id="totalKilled" layoutX="322.0" layoutY="194.0" text="Label" />
+      <Label fx:id="time" layoutX="322.0" layoutY="240.0" text="Label" />
+      <Label fx:id="roomsDiscovered" layoutX="322.0" layoutY="281.0" text="Label" />
+    </children>
+</AnchorPane>

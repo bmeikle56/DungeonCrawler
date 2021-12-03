@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChallengeRoomController">
+    <children>
+        <AnchorPane layoutX="122.0" layoutY="414.0" prefHeight="360.0" prefWidth="565.0">
+            <children>
+                <Button fx:id="right" layoutX="328.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#clickRight" text="Right" />
+                <Button fx:id="forward" layoutX="250.0" layoutY="103.0" mnemonicParsing="false" onMouseClicked="#clickForward" text="Forward " />
+                <Button fx:id="left" layoutX="202.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#clickLeft" text="Left" />
+                <Button fx:id="back" layoutX="260.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#clickBack" text="Back" />
+                <AnchorPane layoutX="103.0" layoutY="223.0" prefHeight="72.0" prefWidth="360.0">
+                    <children>
+                        <HBox prefHeight="73.0" prefWidth="360.0">
+                            <children>
+                                <AnchorPane prefHeight="72.0" prefWidth="72.0">
+                                    <children>
+                                        <Rectangle fx:id="rec1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="72.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+                                        <ImageView fx:id="heal1" fitHeight="44.0" fitWidth="59.0" layoutX="7.0" layoutY="15.0" onMouseClicked="#clickHeal1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion5.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="stick1" fitHeight="57.0" fitWidth="59.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickStick1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/stick.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="axe1" fitHeight="57.0" fitWidth="66.0" layoutX="8.0" layoutY="8.0" onMouseClicked="#clickAxe1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/axe.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="strength1" fitHeight="57.0" fitWidth="72.0" layoutX="5.0" layoutY="8.0" onMouseClicked="#clickStrength1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion3.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="crossbow1" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickCrossbow1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/crossbow.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="dagger1" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="9.0" onMouseClicked="#clickDagger1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/dagger.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="mace1" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickMace1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/mace.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="spoon1" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickSpoon1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/spoon.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="sword1" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickSword1" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/Diamond%20Sword-1.png%20(1).png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="72.0" prefWidth="72.0">
+                                    <children>
+                                        <Rectangle fx:id="rec2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="72.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+                                        <ImageView fx:id="heal2" fitHeight="44.0" fitWidth="59.0" layoutX="7.0" layoutY="15.0" onMouseClicked="#clickHeal2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion5.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="stick2" fitHeight="57.0" fitWidth="59.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickStick2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/stick.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="axe2" fitHeight="57.0" fitWidth="66.0" layoutX="8.0" layoutY="8.0" onMouseClicked="#clickAxe2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/axe.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="strength2" fitHeight="57.0" fitWidth="72.0" layoutX="5.0" layoutY="8.0" onMouseClicked="#clickStrength2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion3.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="crossbow2" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickCrossbow2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/crossbow.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="dagger2" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="9.0" onMouseClicked="#clickDagger2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/dagger.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="mace2" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickMace2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/mace.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="spoon2" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickSpoon2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/spoon.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="sword2" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickSword2" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/Diamond%20Sword-1.png%20(1).png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="72.0" prefWidth="72.0">
+                                    <children>
+                                        <Rectangle fx:id="rec3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="72.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+                                        <ImageView fx:id="heal3" fitHeight="44.0" fitWidth="59.0" layoutX="7.0" layoutY="15.0" onMouseClicked="#clickHeal3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion5.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="stick3" fitHeight="57.0" fitWidth="59.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickStick3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/stick.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="axe3" fitHeight="57.0" fitWidth="66.0" layoutX="8.0" layoutY="8.0" onMouseClicked="#clickAxe3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/axe.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="strength3" fitHeight="57.0" fitWidth="72.0" layoutX="5.0" layoutY="8.0" onMouseClicked="#clickStrength3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion3.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="crossbow3" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickCrossbow3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/crossbow.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="dagger3" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="9.0" onMouseClicked="#clickDagger3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/dagger.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="mace3" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickMace3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/mace.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="spoon3" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickSpoon3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/spoon.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="sword3" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickSword3" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/Diamond%20Sword-1.png%20(1).png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="72.0" prefWidth="72.0">
+                                    <children>
+                                        <Rectangle fx:id="rec4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="72.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+                                        <ImageView fx:id="heal4" fitHeight="44.0" fitWidth="59.0" layoutX="7.0" layoutY="15.0" onMouseClicked="#clickHeal4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion5.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="stick4" fitHeight="57.0" fitWidth="59.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickStick4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/stick.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="axe4" fitHeight="57.0" fitWidth="66.0" layoutX="8.0" layoutY="8.0" onMouseClicked="#clickAxe4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/axe.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="strength4" fitHeight="57.0" fitWidth="72.0" layoutX="5.0" layoutY="8.0" onMouseClicked="#clickStrength4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion3.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="crossbow4" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickCrossbow4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/crossbow.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="dagger4" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="9.0" onMouseClicked="#clickDagger4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/dagger.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="mace4" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickMace4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/mace.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="spoon4" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickSpoon4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/spoon.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="sword4" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickSword4" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/Diamond%20Sword-1.png%20(1).png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="72.0" prefWidth="72.0">
+                                    <children>
+                                        <Rectangle fx:id="rec5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="72.0" stroke="BLACK" strokeType="INSIDE" width="72.0" />
+                                        <ImageView fx:id="heal5" fitHeight="44.0" fitWidth="59.0" layoutX="7.0" layoutY="15.0" onMouseClicked="#clickHeal5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion5.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="stick5" fitHeight="57.0" fitWidth="59.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickStick5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/stick.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="axe5" fitHeight="57.0" fitWidth="66.0" layoutX="8.0" layoutY="8.0" onMouseClicked="#clickAxe5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/axe.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="strength5" fitHeight="57.0" fitWidth="72.0" layoutX="5.0" layoutY="8.0" onMouseClicked="#clickStrength5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/potion3.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="crossbow5" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickCrossbow5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/crossbow.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="dagger5" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="9.0" onMouseClicked="#clickDagger5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/dagger.png" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="mace5" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickMace5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/mace.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="spoon5" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="7.0" onMouseClicked="#clickSpoon5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/spoon.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <ImageView fx:id="sword5" fitHeight="57.0" fitWidth="72.0" layoutX="8.0" layoutY="10.0" onMouseClicked="#clickSword5" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../../../images/Diamond%20Sword-1.png%20(1).png" />
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="503.0" prefHeight="243.0" prefWidth="297.0">
+            <children>
+                <ImageView fitHeight="85.0" fitWidth="82.0" layoutX="67.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../images/MainChar-1.png%20(3).png" />
+                    </image>
+                </ImageView>
+                <ProgressBar fx:id="healthBar" layoutX="63.0" layoutY="79.0" prefWidth="200.0" progress="0.0" />
+                <Label fx:id="healthValue" layoutX="170.0" layoutY="55.0" prefHeight="17.0" prefWidth="32.0">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="57.0" fitWidth="103.0" layoutX="182.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../images/money.jpg" />
+                    </image>
+                </ImageView>
+                <Label fx:id="coinAmount" layoutX="211.0" layoutY="190.0" prefHeight="25.0" prefWidth="59.0">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="strength" layoutX="123.0" layoutY="190.0" prefHeight="25.0" prefWidth="32.0">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="169.0" layoutY="194.0" text="Coins:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="14.0" prefHeight="23.0" prefWidth="142.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="123.0" layoutY="55.0" text="Health:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="67.0" layoutY="194.0" text="Strength:">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Label fx:id="challengeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="295.0" prefHeight="191.0" prefWidth="543.0" text="You reached a Challenge Room! Click Challenge to fight some Barbarians to win a lot of Treasure!" />
+      <Button fx:id="challenge" layoutX="373.0" layoutY="414.0" mnemonicParsing="false" onMouseClicked="#clickChallenge" text="Challenge" />
+      <AnchorPane layoutX="27.0" layoutY="243.0" prefHeight="265.0" prefWidth="270.0">
+         <children>
+              <ProgressBar fx:id="barbBar1" layoutX="21.0" layoutY="49.0" prefWidth="200.0" progress="1.0">
+                  <effect>
+                      <ColorAdjust hue="-0.15" />
+                  </effect>
+              </ProgressBar>
+              <Label fx:id="deadLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="-27.0" layoutY="6.0" prefHeight="35.0" prefWidth="297.0">
+                  <font>
+                      <Font size="17.0" />
+                  </font>
+              </Label>
+              <ImageView fx:id="barb1" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../../../images/barbarian2.png" />
+                  </image>
+              </ImageView>
+              <Label fx:id="barbValue1" layoutX="231.0" layoutY="51.0" prefHeight="17.0" prefWidth="32.0" />
+              <Button fx:id="fight1" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#clickFight1" text="Fight" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="265.0" layoutY="79.0" prefHeight="265.0" prefWidth="270.0">
+         <children>
+            <ProgressBar fx:id="barbBar2" layoutX="21.0" layoutY="49.0" prefWidth="200.0" progress="1.0">
+               <effect>
+                  <ColorAdjust hue="-0.15" />
+               </effect>
+            </ProgressBar>
+            <Label fx:id="deadLabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="-27.0" layoutY="6.0" prefHeight="35.0" prefWidth="297.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="barb2" fitHeight="150.0" fitWidth="162.0" layoutX="54.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/MainChar-1.png%20(3).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="barbValue2" layoutX="231.0" layoutY="51.0" prefHeight="17.0" prefWidth="32.0" />
+            <Button fx:id="fight2" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#clickFight2" text="Fight" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="525.0" layoutY="256.0" prefHeight="265.0" prefWidth="270.0">
+         <children>
+            <ProgressBar fx:id="barbBar3" layoutX="21.0" layoutY="49.0" prefWidth="200.0" progress="1.0">
+               <effect>
+                  <ColorAdjust hue="-0.15" />
+               </effect>
+            </ProgressBar>
+            <Label fx:id="deadLabel3" alignment="CENTER" contentDisplay="CENTER" layoutX="-27.0" layoutY="6.0" prefHeight="35.0" prefWidth="297.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="barb3" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/barbarian1.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="barbValue3" layoutX="231.0" layoutY="51.0" prefHeight="17.0" prefWidth="32.0" />
+            <Button fx:id="fight3" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#clickFight3" text="Fight" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
